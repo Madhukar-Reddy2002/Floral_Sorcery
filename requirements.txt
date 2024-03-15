@@ -3,3 +3,4 @@ numpy>=1.25.1  # Supports Python 3.7+
 Pillow>=9.4.0  # Supports Python 3.4+
 tensorflow>=2.15.0  # Supports Python 3.7+
 matplotlib>=3.6.2  # Supports Python 3.7+
+base64>=3.2.3  # Supports Python 3.3+
