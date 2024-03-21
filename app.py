@@ -134,7 +134,7 @@ if uploaded_file is not None:
     # Display the uploaded image
     image = Image.open(uploaded_file)
     image_preview = image.resize((250, 250))
-    st.image(image_preview, caption="🖼️ Image Preview", use_column_width=True)
+    st.image(image_preview, caption="🖼️ Image Preview", use_column_width=False)
 
     # Preprocess the image
     image = image.resize((250, 250))
