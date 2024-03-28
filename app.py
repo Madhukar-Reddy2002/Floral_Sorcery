@@ -5,7 +5,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 # Load the pre-trained model
-model_path = "./MyModel5.h5"
+model_path = "./MyModel.h5"
 model = tf.keras.models.load_model(model_path)
 
 CLASS_NAMES = ['balloon flower', 'black-eyed susan', 'foxglove', 'frangipani', 'jasmine', 'lotus lotus', 'orange hibiscus', 'orange marigold', 'oxeye daisy', 'pink hibiscus', 'pink rose', 'red hibiscus', 'redRose', 'stemless gentian', 'sunflower', 'thorn apple', 'water lily', 'yellow hibiscus', 'yellow marigold', 'yellow rose']
